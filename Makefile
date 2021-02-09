@@ -5,7 +5,8 @@
 ## make
 ##
 
-SRC =	main.c
+SRC =	main.c	\
+		src/database/create_or_load_db.c
 
 SRC_UT	=
 
@@ -19,7 +20,7 @@ OBJ_UT	=	$(SRC_UT:.c=.o)
 
 INCLUDE	=	-I./include
 
-NAME	=	mysh
+NAME	=	school
 
 NAME_UT	=	unit_tests
 
