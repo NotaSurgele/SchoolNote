@@ -6,7 +6,7 @@
 ##
 
 SRC =	main.c	\
-		src/database/create_or_load_db.c
+		$(wildcard src/database/*.c)
 
 SRC_UT	=
 
